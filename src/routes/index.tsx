@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 
 import Home from "../screens/Home";
-import PopUpMenu from "../screens/PopUpMenu";
+import FloatingActionButton from "../screens/FloatingActionButton";
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -16,7 +16,7 @@ const Routes: React.FC = () => {
       }}
     >
       <Screen name="Home" component={Home} />
-      <Screen name="PopUpMenu" component={PopUpMenu} />
+      <Screen name="FloatingActionButton" component={FloatingActionButton} />
     </Navigator>
   );
 };

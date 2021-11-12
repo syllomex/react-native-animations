@@ -1,7 +1,7 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet } from "react-native";
 
 import Routes from "./src/routes";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";

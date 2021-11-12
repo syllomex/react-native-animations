@@ -6,7 +6,9 @@ import { StackRouteList } from "../../types/navigation";
 
 import styles from "./styles";
 
-const buttons = [{ label: "🗒️ PopUp Menu", route: "PopUpMenu" as const }];
+const buttons = [
+  { label: "🗒️ FloatingActionButton", route: "FloatingActionButton" as const },
+];
 
 const Home: React.FC = () => {
   const { navigate } = useNavigation<StackRouteList>();
